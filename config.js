@@ -11,29 +11,29 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'André!',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
 
 	// Greetings
-	greetingMorning: 'Good morning!',
-	greetingAfternoon: 'Good afternoon,',
-	greetingEvening: 'Good evening,',
-	greetingNight: 'Go to Sleep!',
+	greetingMorning: 'Bom dia, ',
+	greetingAfternoon: 'Boa Tarde, ',
+	greetingEvening: 'Good Boa Noite, ',
+	greetingNight: 'Vá dormir, ',
 
 	// Layout
-	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
+	bentoLayout: 'buttons', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
-	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
+	weatherKey: 'api', // Write here your API Key
+	weatherIcons: 'Nord', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
-	language: 'en', // More languages in https://openweathermap.org/current#multi
+	language: 'pt_br', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '-25.504',
+	defaultLongitude: '-49.2908',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -53,21 +53,21 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Github',
+			name: 'Github - Pessoal',
 			icon: 'github',
-			link: 'https://github.com/',
+			link: 'https://github.com/okanahs/Bento',
 		},
 		{
 			id: '2',
-			name: 'Mail',
+			name: 'GMail',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://mail.google.com/mail/u/1/?ogbl#inbox',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
+			name: 'Globo',
 			icon: 'trello',
-			link: 'https://todoist.com',
+			link: 'https://www.globo.com/',
 		},
 		{
 			id: '4',
@@ -83,9 +83,9 @@ const CONFIG = {
 		},
 		{
 			id: '6',
-			name: 'Odysee',
+			name: 'Youtube',
 			icon: 'youtube',
-			link: 'https://odysee.com/',
+			link: 'https://youtube.com/',
 		},
 	],
 

@@ -11,7 +11,7 @@
 :root {
   /* Font Size */
   --fg-primary: 12vh; /* Time and Greetings */
-  --fg-secondary: 3vh; /* Greetings and Weather widger */
+  --fg-secondary: 5vh; /* Greetings and Weather widger */
   --fg-date: 8vh; /* Date */
   --fg-list: 2vh; /* Links List */
   --icon: 3vh; /* Icon Size */
@@ -35,12 +35,12 @@
 
 .darktheme {
   /* Dark Colors  */
-  --accent: #57a0d9; /* Hover color */
+  --accent: #ffffff; /* Hover color */
   --background: #19171a; /* Background color */
-  --cards: #201e21; /* Cards color */
+  --cards: #2f00ff; /* Cards color */
 
   /* Fonts Color */
-  --fg: #d8dee9; /* Foreground color */
+  --fg: red; /* Foreground color */
   --sfg: #2c292e; /* Secondary Foreground color */
 
   /* Image background  */
@@ -89,7 +89,7 @@ body {
   color: var(--fg);
   border: none;
   cursor: pointer;
-  background-color: #00000000;
+  background-color: #ff000000;
 }
 
 #themeIcon {
@@ -109,8 +109,8 @@ body {
 
 .card {
   background-color: var(--cards);
-  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.35);
   border-radius: 5px;
+  box-shadow: 5px 5px red;
 }
 
 .card:hover {
@@ -120,7 +120,7 @@ body {
 
 .timeBlock {
   grid-row: 1 / span 2;
-  grid-column: 1 / span 2;
+  grid-column: 2 / span 2;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -161,6 +161,7 @@ body {
   font-size: var(--fg-primary);
   font-weight: bolder;
   color: var(--fg);
+  text-shadow: 5px 5px var(--cards)
 }
 
 #month,
@@ -177,6 +178,7 @@ body {
 #greetings {
   font-size: var(--fg-secondary);
   color: var(--fg);
+  text-shadow: 2px 2px var(--cards)
 }
 
 .weatherIcon img {
